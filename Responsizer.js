@@ -1,6 +1,6 @@
 (function() {
 
-	var elDoc = $(document);
+	var elWin = $(window);
 	var elStatus = $('<span>W x H</span>');
 
 	elStatus.css('background-color', 'black');
@@ -17,12 +17,12 @@
 	$('body').append(elStatus);
 	UpdateStatus();
 
-	$(window).resize(function() {
+	elWin.resize(function() {
 		UpdateStatus();
 	});
 
 	function UpdateStatus() {
-		elStatus.html(elDoc.innerWidth() + ' x ' + elDoc.innerHeight());
+		elStatus.html(elWin.innerWidth() + ' x ' + elWin.innerHeight());
 	}
 
 }) ();
