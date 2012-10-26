@@ -1,6 +1,6 @@
 (function() {
 
-	var breakPoints = [320, 480, 768, 1024, 1600];
+	var breakPoints = [320, 480, 568, 768, 1024, 1600];
 	var isBreakPointShown = false;
 	var elStatus = $('<span>W x H</span>');
 
