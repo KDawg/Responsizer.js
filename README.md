@@ -9,7 +9,7 @@ Instead simply drop into your website the Responsizer.JS library letting it show
 device widths as you resize your laptop browser. How does it work? This library is so easy
 and useful you’ll wonder why you haven’t had something like this already.
 
-Include the file “Responsizer.Js” into your index.html and it's assumed that jQuery is
+Include the file “Responsizer.JS” into your index.html and it's assumed that jQuery is
 loaded and available too.
 
 The library is in fact a simple piece of Javascript code. It’s a self-invoking function
@@ -22,3 +22,12 @@ reporting the width and height. When a typical mobile width is reached (1024, 76
 it changes colors highlighting the significant breaking-point. This guidance helps you
 conveniently test your responsive design on your development laptop without dragging a
 cellphone or tablet into the mix.
+
+##Copyright
+There is no copyright. I'm putting Responsizer.JS into the public domain in the spirit of
+sharing and learning. Use Responsizer.JS in whatever way you wish. If you make it better
+log a pull request. If you get rich let's do business!
+
+##For More Info
+* Reach out to me on Twitter @KenTabor
+* Read more at blog.katworksgames.com
